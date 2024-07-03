@@ -4,7 +4,10 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+    "wdth" 100;
+}
+body{
+    background-color: rgb(255, 246, 246);
 }
 header{
     background-color: #ff8f0e17;
@@ -49,8 +52,280 @@ nav,li{
     cursor: pointer;
     border: 0;
 }
-.banner,img{
+.banner,.qwe{
     margin-top: 20px;
     width: 90%;
-    padding-left: 65px;
+    padding-left: 60px;
+}
+/* banner list */
+.containar{
+    margin-top: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.containar-img,.imgs{
+    height: 300px;
+    width: 300px;
+    gap: 70px;
+}
+.containar-img{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin-right: 25%;
+}
+.containar-imgs{
+    margin-top: 200px;
+    margin-left: 70px;
+}
+span{
+    color: #606163;
+}
+.Features{
+    color: #ff900e;
+}
+.banner-contant-2{
+    color: #606163;
+}
+.banner-contant-1{
+    color: #606163;
+    font-size: 13px;
+}
+/* contant list */
+.Feature{
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.img,.p{
+    height: 900px;
+    width: 650px;
+}
+.img{
+    margin-left: 80px;
+}
+.exktop{
+    background-color: white;
+    padding:10px 8px 5px 15px ;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 400px;
+    filter: drop-shadow(0px 0px 15px #e7e7e9);
+}
+.c{
+    font-size: 40px;
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
+}
+h2{
+    background-color: #ff900e;
+    padding: 30px 40px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+    color: white;
+}
+.q{
+    font-size: 50px;
+    color: white;
+}
+.img{
+    margin-right: 150px;
+}
+.Feature-list{
+    margin-left: 100px;
+}
+u{
+    height: 50px;
+}
+/* Awards sacktion */
+.Some{
+    margin: 200px 0px 100px 100px;
+
+}
+.Some-1{
+    margin-top: 100px;
+
+}
+.Project,.h{
+    height: 50px;
+    width: 50px;
+}
+.h{
+    margin-left: 75px;
+}
+.Awards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.ff{
+    width: 200px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.dd{
+    font-size: 40px;
+}
+.Project{
+    margin-top: 0px;
+    border: 3px solid #ff900e;
+    padding: 40px 160px 150px 10px;
+    border-radius: 10px;
+}
+/* link sacktion */
+.spotify{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.google{
+    margin-top: 50px;
+}
+.google,.o{
+    width: 200px;
+}
+.Facts-1{
+    text-align: center;
+}
+/* futter */
+.futter{
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 100px 20px 100px;
+    background-color: #f5e3ce;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.banner-contant-2{
+    color: rgb(100, 99, 99);
+}
+/* mobile */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px){
+nav{
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+nav,ul{
+    padding: 0px;
+}
+ul,li{
+    margin: 20px;
+}
+.banner,.qwe{
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+}
+.banner-title{
+    font-size: 35px;
+}
+.banner-contant{
+    font-size: 17px;
+}
+.containar-img{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    gap: 250px;
+    margin-left: 35px;
+}
+.imgs,img{
+    height: 200%;
+    width: 200%;
+}
+/* banner list */
+.containar{
+    margin-top: 100px;
+    flex-direction: column;
+    
+}
+.containar-img,.imgs{
+    height: 200px;
+    width: 200px;
+}
+.containar-imgs{
+    margin: 450% 0 0 30px;
+}
+.banner-contant-2{
+    width: 130%;
+    font-size: 14px;
+}
+/* contant list */
+.Feature{
+    flex-direction: column;
+    margin-top: 50px;
+}
+.Feature-list{
+    margin: 0px 0px 0px 0px;
+}
+.exktop{
+    width: 80%;
+}
+.img,.p{
+    height: 700px;
+    width: 90%;
+    margin-left: 15px;
+}
+.q{
+    font-size: 35px;
+    color: white;
+}
+h2{
+    background-color: #ff900e;
+    padding: 20px 10px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    left: 0px;
+    color: white;
+}
+.u{
+    margin-top: 70px;
+}
+/* Awards sacktion  */
+.Some{
+    margin: 100px 0px 0px 0px;
+    width: 78%;
+}
+.Awards{
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 45px;
+}
+.Project-1{
+    margin-left: 0px;
+    margin-right: 110px;
+}
+.Project-2{
+    margin-right: 210px;
+    margin-top: 30px;
+    margin-right: 110px;
+}
+.Project{
+    margin-top: 30px;
+    
+}
+.Project,.h{
+    margin-left: 75px;
+}
+/* link sacktion */
+.spotify{
+    flex-direction: column;
+    margin-left: 20px;
+}
+.google,.o{
+
+    margin: 30px 0px 0px 60px;
+}
+.futter{
+    margin: 50px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+}
 }
